@@ -1,0 +1,78 @@
+<h1 align="center">
+  <img alt="Ecoleta" title="Front-end" src=".github/ecoleta.png" width="250px" />
+  <br/>
+  <img alt="Ecoleta" title="Mobile" src=".github/logo.png" width="250px" />
+</h1>
+
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/maykon-oliveira/nlw-1">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/maykon-oliveira/nlw-1">
+
+  <a href="https://github.com/maykon-oliveira/nlw-1/blob/master/LICENSE.md">
+    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+  <a>
+</p>
+
+<p align="center">
+  <a href="#hammer-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#house-frontend">Frontend</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#iphone-mobile">Mobile</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#wrench-instalação">Instalação</a>
+</p>
+
+<br>
+
+---
+
+## :hammer: Tecnologias
+
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- [Node.js](https://nodejs.org/en/)
+- [React](https://reactjs.org)
+- [React Native](https://facebook.github.io/react-native/)
+- [Expo](https://expo.io/)
+- [API do IBGE para consumo do endereço](https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-UFs-estadosGet)
+- [Upload de imagens](react-dropzone)
+- [celebrate](https://github.com/arb/celebrate)
+
+## :memo: Projeto
+
+Projeto desenvolvido durante a <strong>Next Level Week</strong> que tem como objetivo fins ecológicos.
+O <strong>Ecoleta</strong> serve como um Marketplace, uma conexão entre empresas ou entidade que coletam resíduos, sejam eles orgânicos ou inorgânicos, à pessoas que precisam fazer descarte dos resíduos.
+
+## :house: Frontend
+
+<h1 align="center">
+    <img alt="Ecoleta Front-end" title="Front-end" src=".github/web.gif" />
+</h1>
+
+## :iphone: Mobile
+
+<h1 align="center">
+    <img alt="Ecoleta Mobile" title="Mobile" src=".github/mobile.gif" />
+</h1>
+
+## :wrench: Instalação
+
+```bash
+# Clone este repositório
+$ git clone git@https://github.com/GiovanniOliveira75/nlw-booster-01.git
+
+# Navegue até a pasta server e execute os seguintes comandos:
+$ yarn knex:migrate
+$ yarn knex:seed
+$ yarn start
+
+# Depois disso, entre na pasta web e execute o comando:
+$ yarn start
+
+# E finalmente, entre na pasta mobile e execunte o comando:
+$ expo start
+
+# Observações:
+- Não esqueça de mudar a baseURL no arquivo api.ts das pastas web e mobile para o ip da sua máquina
+```
+Feito com :green_heart: by [Giovanni Oliveira](https://www.linkedin.com/in/giovanni-oliveira-525027118/)
